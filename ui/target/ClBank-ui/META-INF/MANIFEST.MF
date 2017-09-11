@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Build-ChangeSetDate: ${changeSetDate}
+Implementation-Title: ClBank-ui
+Implementation-Version: 1.0-SNAPSHOT
+Build-ChangeSet: ${changeSet}
+Build-Number: 
+Built-By: Snake
+Implementation-Vendor-Id: com.eisgroup
+Created-By: IntelliJ IDEA
+Build-Jdk: 1.8.0_144
+

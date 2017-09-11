@@ -1,0 +1,41 @@
+syntax: glob
+.springBeans
+soapui.log
+*.log
+*.exec
+.externalToolBuilders/*
+maven-eclipse.xml
+activemq-data/
+atlassian-ide-plugin.xml
+target/MANIFEST.MF
+.user-files\
+syntax: regexp
+^.*-itests/test\.log\.\d+$
+/target$
+/lib$
+/bin$
+.*\.settings$
+.*\.classpath$
+build/.*\.classpath\.properties$
+.*\.metadata$
+.*\.project$
+.*\.iml$
+.*\.ipr$
+.*\.iws$
+.*\.idea*
+.*\.scripts*
+.*\.~lock\.$
+.*~$
+^\.directory$
+.idea
+target
+.iml
+.orig
+dao/src/main/resources/META-INF/jdbc.properties
+/src/main/resources/META-INF/jdbc.properties
+syntax: glob
+/**/*.orig
+
+/**/app.properties
+/admin/dao/src/main/resources/META-INF/app.properties
+/out
